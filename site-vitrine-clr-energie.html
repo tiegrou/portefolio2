@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style-smart-space.css">
+</head>
+<body>
+    <div id="gauche">
+        <style>
+            #gauche {
+            width: 50%;
+            height: 100%;
+            float: left;
+            background-image: url('img/clr.JPG');
+            background-position: left center;
+            background-size: cover;
+            animation: slide-image 30s linear infinite;
+        }
+        
+        @keyframes slide-image {
+            0% {
+            background-position: left center;
+            }
+            50% {
+            background-position: right center;
+            }
+            100% {
+            background-position: left center;
+            }
+        }
+        </style>
+    </div>
+    <div id="droite">
+        <h1>Site vitrine <br> Clr energie
+        </h1>
+        <div id="description">
+        <p>Dans le cadre de mon BTS SIO, j'ai réalisé un projet de création de site vitrine pour une entreprise spécialisée dans le domaine de l'énergie. Le site a été développé en utilisant la plateforme WordPress, qui offre de nombreuses fonctionnalités pour améliorer l'expérience utilisateur et faciliter la gestion du contenu. <br> <br>
+
+            Le projet a impliqué la conception et la mise en œuvre d'une interface utilisateur intuitive, permettant aux visiteurs de naviguer facilement à travers les différentes sections du site. J'ai également intégré des fonctionnalités pour permettre une interaction directe avec l'entreprise, comme un formulaire de contact et un chat en direct. <br> <br>
+            
+            Une attention particulière a été portée à l'optimisation du site pour le référencement naturel, afin d'assurer une visibilité optimale dans les résultats des moteurs de recherche. <br> <br>
+            
+            Ce projet m'a permis de développer mes compétences en matière de développement web, ainsi que ma compréhension des besoins d'une entreprise dans le cadre de sa présence en ligne.</p>
+        </div>
+
+        <a href="clrenergie.fr"><button class="btn">découvrir</button></a>
+        <a href="index.html"><button class="btn" style="margin-left: 10%;">accueil</button></a>
+    </div>
+    
+</body>
+</html>

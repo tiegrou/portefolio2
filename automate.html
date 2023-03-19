@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style-smart-space.css">
+</head>
+<body>
+    <div id="gauche">
+        <style>
+            #gauche {
+            width: 50%;
+            height: 100%;
+            float: left;
+            background-image: url('img/auto.JPG');
+            background-position: left center;
+            background-size: cover;
+            animation: slide-image 30s linear infinite;
+        }
+        
+        @keyframes slide-image {
+            0% {
+            background-position: left center;
+            }
+            50% {
+            background-position: right center;
+            }
+            100% {
+            background-position: left center;
+            }
+        }
+        </style>
+    </div>
+    <div id="droite">
+        <h1>Programmation automates <br> Modbus et BACnet
+        </h1>
+        <div id="description">
+        <p>Les automates Distech sont des équipements électroniques programmables utilisés pour la gestion technique des bâtiments. Ils sont conçus pour automatiser les fonctions de chauffage, de ventilation, de climatisation et d'éclairage, ainsi que d'autres fonctions techniques dans les bâtiments. <br> <br>
+
+            Les automates Distech prennent en charge plusieurs protocoles de communication, dont Modbus et BACnet. Modbus est un protocole de communication série utilisé pour connecter des équipements électroniques entre eux. Il permet aux automates Distech de communiquer avec d'autres équipements électroniques tels que des capteurs, des compteurs d'énergie, des thermostats, des commandes de moteurs, etc. <br> <br>
+            
+            BACnet est un protocole de communication spécifique au secteur du bâtiment. Il permet aux automates Distech de communiquer avec d'autres équipements de gestion technique du bâtiment tels que des systèmes de sécurité, des ascenseurs, des éclairages, des stores, etc. Les automates Distech peuvent également interagir avec des logiciels de gestion technique de bâtiments qui prennent en charge BACnet.</p>
+        </div>
+        <a href="https://www.distech-controls.com/fr-fr/"><button class="btn">découvrir</button></a>
+        <a href="index.html"><button class="btn" style="margin-left: 10%;">accueil</button></a>
+    </div>
+    
+</body>
+</html>

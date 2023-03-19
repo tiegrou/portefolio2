@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style-smart-space.css">
+</head>
+<body>
+    <div id="gauche">
+        <style>
+            #gauche {
+            width: 50%;
+            height: 100%;
+            float: left;
+            background-image: url('img/smartspace.JPG');
+            background-position: left center;
+            background-size: cover;
+            animation: slide-image 30s linear infinite;
+        }
+        
+        @keyframes slide-image {
+            0% {
+            background-position: left center;
+            }
+            50% {
+            background-position: right center;
+            }
+            100% {
+            background-position: left center;
+            }
+        }
+        </style>
+    </div>
+    <div id="droite">
+        <h1>Application web php mysql <br> smart-space</h1>
+        <div id="description">
+        <p>Notre projet consiste à créer une plateforme web permettant d'analyser et de visualiser des données géographiques. Les données seront stockées dans une base de données MySQL, et seront récupérées et manipulées à l'aide de PHP. <br> <br>
+
+            La plateforme offrira une interface utilisateur conviviale permettant de sélectionner les données à visualiser et les critères d'analyse, tels que les filtres, les regroupements, les agrégations et les calculs statistiques. Les résultats de l'analyse seront présentés sous forme de graphiques interactifs, créés à l'aide de la bibliothèque JavaScript Chart.js. <br> <br>
+            
+            En outre, la plateforme utilisera la bibliothèque Mapbox pour visualiser les données géographiques sous forme de cartes interactives. Les utilisateurs pourront afficher des données à différents niveaux de zoom et de détail, ainsi que des informations contextuelles sur les emplacements sélectionnés. <br> <br>
+            
+            En résumé, notre projet offrira une solution de visualisation de données géographiques flexible, facile à utiliser et interactive, permettant aux utilisateurs de découvrir des modèles et des tendances cachés dans les données, ainsi que de prendre des décisions éclairées basées sur les résultats de l'analyse.</p>
+        </div>
+
+
+        <a href="https://github.com/tiegrou/gtc"><button class="btn">découvrir</button></a>
+        <a href="index.html"><button class="btn" style="margin-left: 10%;">accueil</button></a>
+    </div>
+    
+</body>
+</html>

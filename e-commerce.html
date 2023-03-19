@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style-smart-space.css">
+</head>
+<body>
+    <div id="gauche">
+        <style>
+            #gauche {
+            width: 50%;
+            height: 100%;
+            float: left;
+            background-image: url('img/niiwaa.JPG');
+            background-position: left center;
+            background-size: cover;
+            animation: slide-image 30s linear infinite;
+        }
+        
+        @keyframes slide-image {
+            0% {
+            background-position: left center;
+            }
+            50% {
+            background-position: right center;
+            }
+            100% {
+            background-position: left center;
+            }
+        }
+        </style>
+    </div>
+    <div id="droite">
+        <h1>Mise en place d'un site e-commerce <br> avec woo-commerce
+        </h1>
+        <div id="description">
+        <p>Le projet avait pour objectif de mettre en place un système de paiement en ligne permettant aux utilisateurs de souscrire à des abonnements pour une application web. Nous avons choisi d'utiliser l'API Stripe pour la gestion des paiements, et j'ai été en charge de la mise en place de la partie e-commerce ainsi que de l'intégration de l'API. <br> <br>
+
+            La première étape a consisté à installer Stripe et l'extension WooCommerce sur un serveur web. Nous avons ensuite personnalisé le thème de base de WooCommerce pour qu'il corresponde à l'identité visuelle de l'application web. <br> <br>
+            
+            Nous avons créé des produits pour les différents abonnements proposés, en prenant en compte les différentes options de paiement (mensuel, trimestriel, annuel, etc.). Nous avons également configuré les options de livraison pour que les utilisateurs reçoivent une confirmation de leur abonnement par e-mail. <br> <br>
+            
+            Nous avons ensuite intégré l'API Stripe pour permettre le traitement des paiements. Nous avons configuré les paramètres de l'API pour qu'elle soit en mesure de communiquer avec WooCommerce et traiter les paiements en temps réel. Nous avons également mis en place des mécanismes de sécurité pour garantir la sécurité des transactions. <br><br>
+            
+            Enfin, nous avons testé le système de paiement en effectuant plusieurs transactions de test pour nous assurer que tout fonctionnait correctement. Nous avons également créé des rapports pour suivre les ventes et les transactions en temps réel.</p>
+        </div>
+
+        <a href="https://niiwaa.com/abonnements/"><button class="btn">découvrir</button></a>
+        <a href="index.html"><button class="btn" style="margin-left: 10%;">accueil</button></a>
+
+    </div>
+    
+</body>
+</html>
